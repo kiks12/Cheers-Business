@@ -423,6 +423,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
+*, ::before, ::after {
+  --tw-border-opacity: 1;
+  border-color: rgb(229 231 235 / var(--tw-border-opacity));
+}
+
 .col-span-4 {
   grid-column: span 4 / span 4;
 }
@@ -447,12 +452,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 0.5rem;
 }
 
-.bg-yellow-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(202 138 4 / var(--tw-bg-opacity));
-}
-
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(45 45 45 / var(--tw-bg-opacity));
+.border {
+  border-width: 1px;
 }

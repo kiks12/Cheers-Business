@@ -7,10 +7,10 @@ const Home: NextPage = () => {
 			<Head>
 				<title>Cheers Dashboard</title>
 			</Head>
-			<main className="h-screen w-screen grid grid-cols-6 gap-2 border">
-				<div className="h-100">asdfsaf</div>
-				<div className="col-span-4 h-100">asdfsaf</div>
-				<div className="h-100">asdfsaf</div>
+			<main className="h-screen w-screen grid grid-cols-6">
+				<div>one</div>
+				<div className="col-span-4">one</div>
+				<div>one</div>
 			</main>
 		</>
 	);

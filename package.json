@@ -6,7 +6,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "build:css": "tailwind build styles/tailwind.css -o styles/out.css"
+    "build:css": "tailwind build -i styles/tailwind.css -o styles/out.css"
   },
   "dependencies": {
     "next": "12.0.7",
@@ -19,7 +19,7 @@
     "eslint": "8.4.1",
     "eslint-config-next": "12.0.7",
     "postcss": "^8.4.5",
-    "tailwindcss": "^3.0.5",
+    "tailwindcss": "^2.2.19",
     "typescript": "4.5.4"
   }
 }

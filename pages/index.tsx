@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Sidebar from "../src/Components/Left-Side-Bar/sidebar";
+import Layout from "../src/Components/Layout/Layout";
 
 const Home: NextPage = () => {
 	return (
@@ -8,11 +8,10 @@ const Home: NextPage = () => {
 			<Head>
 				<title>Cheers Dashboard</title>
 			</Head>
-			<main className="h-screen w-screen grid grid-cols-6 gap-2">
-				<Sidebar />
-				<div className="col-span-4 bg-yellow-100">one</div>
-				<div className="bg-blue-100">one</div>
-			</main>
+			<Layout>
+				<p>dsasfs</p>
+				<p>asdfasdf</p>
+			</Layout>
 		</>
 	);
 };
